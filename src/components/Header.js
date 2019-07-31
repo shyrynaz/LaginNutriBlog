@@ -16,7 +16,9 @@ function Header() {
 						<li>
 							<Link to="/">VIDEO LIBRARY</Link>
 						</li>
-						<li>SUBSCRIBE</li>
+						<li>
+							<Link to="/publish">Publish</Link>
+						</li>
 						<li>
 							<Link to="/">ABOUT</Link>
 						</li>

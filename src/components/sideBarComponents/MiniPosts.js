@@ -1,10 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import {Link} from 'react-router-dom';
 
-export default class MiniPost extends Component {
-	render() {
-		const { title, date, image, avatar } = this.props;
-
+const MiniPost = ({title, date, image, avatar }) => {
 		return (
 			<div className="mini-posts">
 				<article className="mini-post">
@@ -26,4 +23,5 @@ export default class MiniPost extends Component {
 			</div>
 		);
 	}
-}
+
+export default MiniPost;
